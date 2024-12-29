@@ -10,7 +10,7 @@ func HandleHelloWorld(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	fmt.Println("Program starting...")
+	fmt.Println("Program starting..")
 	http.HandleFunc("/", HandleHelloWorld)
 
 	http.ListenAndServe(":8081", nil)
