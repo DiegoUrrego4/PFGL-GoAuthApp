@@ -9,7 +9,7 @@ func SetupRoutes() *chi.Mux {
 	r := chi.NewRouter()
 
 	r.Get("/", api.HandleHelloWorld)
-	r.Post("/echo", api.HandleEchoUsers)
+	r.Post("/echo", api.HandleEchoUser)
 
 	return r
 }

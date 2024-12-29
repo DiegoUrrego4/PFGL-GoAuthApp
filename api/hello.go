@@ -11,7 +11,7 @@ func HandleHelloWorld(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "Hello world")
 }
 
-func HandleEchoUsers(w http.ResponseWriter, r *http.Request) {
+func HandleEchoUser(w http.ResponseWriter, r *http.Request) {
 	var user types.User
 
 	// Decode the request
