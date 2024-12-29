@@ -1,7 +1,7 @@
 // DO NOT CHANGE THIS FILE
 module github.com/goschool/crud
 
-go 1.23
+go 1.19
 
 require github.com/stretchr/testify v1.8.4 // indirect; direct
 
